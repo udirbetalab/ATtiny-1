@@ -1,7 +1,8 @@
 #include <avr/pgmspace.h>
 #include <LedControl.h>
 
- //Original Idea from https://www.youtube.com/watch?v=GfHsCDpe6q0
+//Original Idea from https://www.youtube.com/watch?v=GfHsCDpe6q0
+//Found on forum: https://forum.arduino.cc/index.php?topic=402656.30
  
 const int numDevices = 4;      // number of MAX7219s used
 const long scrollDelay = 99;   // adjust scrolling speed
